@@ -1,302 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title>Isciuc Iustin-Constantin — Justin/Hakr/Flexer</title>
-    <meta name="description"
-        content="Résumé of Isciuc Iustin-Constantin — software developer. React, Remix, AWS, Python, Linux. Terminal-flavoured and slightly defaced." />
-    <meta name="theme-color" content="#0a0e0a" />
-
-    <meta property="og:title" content="Isciuc Iustin-Constantin — Justin/Hakr/Flexer" />
-    <meta property="og:description" content="Software developer. React, Remix, AWS, Python, Linux." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://isciuciustin.github.io/" />
-    <meta property="og:image" content="https://isciuciustin.github.io/images/IMG.jpg" />
-    <meta name="twitter:card" content="summary_large_image" />
-
-    <link rel="icon" href="./images/code.svg" />
-    <link rel="preload" as="font" type="font/woff2"
-        href="fonts/JetBrainsMono/jetbrains-mono-latin-400-normal.woff2" crossorigin />
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Flip the stylesheet out of its no-JS mode before first paint. -->
-    <script>document.documentElement.className += " js";</script>
-    <script src="app.js" defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Justin - Hakr - Flexer</title>
+<meta name="description" content="Justin - Hakr - Flexer: software developer, full time at DTC Mobile, building HIT_ENTER, streaming Unturned on Twitch.">
+<meta name="theme-color" content="#07080a">
+<meta property="og:title" content="Justin - Hakr - Flexer">
+<meta property="og:description" content="Full time at DTC Mobile. Building HIT_ENTER. Unturned on Twitch.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://isciuciustin.github.io/">
+<meta property="og:image" content="https://isciuciustin.github.io/images/og.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="./images/logo.svg" type="image/svg+xml">
+<link rel="preload" as="font" type="font/woff2" href="fonts/JetBrainsMono/jetbrains-mono-latin-700-normal.woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
 </head>
+<body id="top">
 
-<body>
-    <canvas id="rain" aria-hidden="true"></canvas>
-    <div class="crt" aria-hidden="true"></div>
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#top"><img src="./images/logo.svg" width="28" height="28" alt="">JUSTIN<span>_</span>HAKR<span>_</span>FLEXER</a>
+    <ul>
+      <li><a href="#now">Now</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="gh-link" href="https://github.com/isciuciustin" target="_blank" rel="noopener" aria-label="GitHub"><svg class="gh" viewBox="0 0 16 16" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg><span class="gh-text">GitHub</span></a>
+    <a class="pill twitch" href="https://www.twitch.tv/justin_hakr_flexer" target="_blank" rel="noopener">Twitch</a>
+  </div>
+</nav>
 
-    <header class="bar bar--top">
-        <a class="logo" href="./index.html" aria-label="Justin - Hakr - Flexer, home">
-            <span class="logo__seg" data-word="JUSTIN">JUSTIN</span>
-            <span class="logo__sep" aria-hidden="true">-</span>
-            <span class="logo__seg" data-word="HAKR">HAKR</span>
-            <span class="logo__sep" aria-hidden="true">-</span>
-            <span class="logo__seg" data-word="FLEXER">FLEXER</span>
-        </a>
-    </header>
+<header class="hero">
+  <div class="wrap">
+    <img class="avatar" src="images/avatar.svg" width="148" height="148" alt="Justin - Hakr - Flexer: a terminal with pixel shades and a crown">
+    <p class="eyebrow">Software developer</p>
+    <h1>Justin&nbsp;- <em>Hakr</em>&nbsp;- Flexer</h1>
+    <p class="sub">Full time at <b>DTC Mobile</b>. Building <b>HIT_ENTER</b>, the next Discord for public communities. Live on <b>Twitch</b> with Unturned.<span class="cursor"></span></p>
+    <div class="cta">
+      <a class="pill" href="#experience">See my work</a>
+      <a class="pill ghost" href="#contact">Get in touch</a>
+    </div>
+  </div>
+</header>
 
-    <main>
-        <div class="deface">
-            <p class="deface__tag">system compromised</p>
-            <h1 class="deface__title">THIS SITE HAS BEEN DEFACED</h1>
-            <p class="deface__sub">
-                Attacker left one file behind: <b>résumé.txt</b> — read it below.
-            </p>
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Software developer</span><span>Building HIT_ENTER</span><span>DTC Mobile</span><span>Unturned on Twitch</span><span>React · Remix · AWS</span><span>Python · Linux</span>
+    <span>Software developer</span><span>Building HIT_ENTER</span><span>DTC Mobile</span><span>Unturned on Twitch</span><span>React · Remix · AWS</span><span>Python · Linux</span>
+  </div>
+</div>
+
+<section id="now">
+  <div class="wrap">
+    <p class="eyebrow">Right now</p>
+    <h2 class="big">Three things, every week</h2>
+    <div class="cards">
+      <article class="card">
+        <span class="tag">Full time</span>
+        <h3>DTC Mobile</h3>
+        <p>My day job: I work full time at DTC Mobile.</p>
+        <div class="links"><a href="https://dtcmobile.ro" target="_blank" rel="noopener">dtcmobile.ro ↗</a></div>
+      </article>
+      <article class="card">
+        <span class="tag">Building</span>
+        <h3>HIT_ENTER</h3>
+        <p>The next Discord, for public communities: channels, roles, DMs, voice, files and Lightning zaps on decentralized software. Every app is a relay. Open source, MIT.</p>
+        <div class="links"><a href="https://hitenter.app" target="_blank" rel="noopener">hitenter.app ↗</a><a href="https://github.com/isciuciustin/HIT_ENTER" target="_blank" rel="noopener">Source ↗</a></div>
+      </article>
+      <article class="card live">
+        <span class="tag">Streaming</span>
+        <h3>Unturned on Twitch</h3>
+        <p>I stream Unturned on Twitch. Come hang out in the chat.</p>
+        <div class="links"><a href="https://www.twitch.tv/justin_hakr_flexer" target="_blank" rel="noopener">twitch.tv/justin_hakr_flexer ↗</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="band">
+  <div class="wrap">
+    <p class="eyebrow">Professional experience</p>
+    <h2 class="big">Where I've worked</h2>
+    <ol class="timeline">
+      <li class="job">
+        <div class="when">Present<small>Full time</small></div>
+        <div>
+          <h3>DTC Mobile</h3>
+          <p>Working full time at <a href="https://dtcmobile.ro" target="_blank" rel="noopener">DTC Mobile</a>.</p>
         </div>
-
-        <div class="toolbar">
-            <button type="button" id="toggle-all" class="ghost-btn">root@justin:~# ./expand --all</button>
+      </li>
+      <li class="job">
+        <div class="when">2026 – Present<small>Creator · open source</small></div>
+        <div>
+          <h3>HIT_ENTER</h3>
+          <p>A decentralized chat app for public communities: Nostr for identity and data, iroh for the network, built in Rust. Native desktop app for Linux, macOS and Windows, about ten times lighter than Discord.</p>
         </div>
+      </li>
+      <li class="job">
+        <div class="when">Aug 2022 – Apr 2024<small>Comono AS</small></div>
+        <div>
+          <h3>Vasonim</h3>
+          <p>A startup funded by Comono that helps clinical psychologists follow up their patients between cognitive behavioral therapy (CBT) sessions.</p>
+          <ul class="list">
+            <li>Built the entire authentication system and every API the frontend needed.</li>
+            <li>Integrated the Google Calendar API so users could schedule online therapy sessions.</li>
+            <li>Made the whole app 30% faster with a more efficient way of applying nested routes on the frontend.</li>
+            <li>Learned Remix and how to run and scale applications on AWS, working closely with Comono's senior developers.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
 
-        <!-- ================= SKILLS ================= -->
-        <section class="sect">
-            <h2 class="sect__h">
-                <button type="button" class="sect__btn" id="Skills-btn" aria-expanded="false" aria-controls="Skills">
-                    <span class="prompt" aria-hidden="true">root@justin:~#</span>
-                    <span class="cmd">cat skills.txt</span>
-                    <span class="sect__state" aria-hidden="true">[+]</span>
-                </button>
-            </h2>
-            <div class="panel" id="Skills" role="region" aria-labelledby="Skills-btn">
-                <div class="panel__in">
-                    <div class="panel__body">
-                        <div class="entry">
-                            <p class="entry__head"><span class="entry__name">Hard Skills</span></p>
-                            <ul class="list list--grid">
-                                <li>Data Structures &amp; Algorithms</li>
-                                <li>Python Programming Language</li>
-                                <li>AWS</li>
-                                <li>React</li>
-                                <li>Remix</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Git</li>
-                                <li>Linux</li>
-                            </ul>
-                        </div>
-                        <div class="entry">
-                            <p class="entry__head"><span class="entry__name">Soft Skills</span></p>
-                            <ul class="list list--grid">
-                                <li>Communication</li>
-                                <li>Team Work</li>
-                                <li>Time Management</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section id="skills">
+  <div class="wrap">
+    <p class="eyebrow">Skills</p>
+    <h2 class="big">What I work with</h2>
+    <div class="skills">
+      <div>
+        <h3>Hard skills</h3>
+        <ul class="chips">
+          <li>Data Structures &amp; Algorithms</li><li>Python</li><li>AWS</li><li>React</li><li>Remix</li>
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li><li>Linux</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Soft skills</h3>
+        <ul class="chips soft"><li>Communication</li><li>Teamwork</li><li>Time management</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- ================= EXPERIENCE ================= -->
-        <section class="sect">
-            <h2 class="sect__h">
-                <button type="button" class="sect__btn" id="Experience-btn" aria-expanded="false"
-                    aria-controls="Experience">
-                    <span class="prompt" aria-hidden="true">root@justin:~#</span>
-                    <span class="cmd">cat experience.txt</span>
-                    <span class="sect__state" aria-hidden="true">[+]</span>
-                </button>
-            </h2>
-            <div class="panel" id="Experience" role="region" aria-labelledby="Experience-btn">
-                <div class="panel__in">
-                    <div class="panel__body">
-                        <div class="entry">
-                            <p class="entry__head">
-                                <span class="entry__name">Comono AS ( Vasonim )</span>
-                                <span class="entry__date">August 2022 - April 2024</span>
-                            </p>
-                            <ul class="list">
-                                <li>Vasonim is a startup, with funding from Comono that
-                                    aims to improve how clinical psychologists follow up
-                                    their patients between cognitive behavioral therapy
-                                    (CBT) sessions.
-                                </li>
-                                <li>At this startup I learned the new React based
-                                    framework Remix, and how to run and scale
-                                    applications with AWS.
-                                </li>
-                                <li>I implemented the entire authentication system and
-                                    all the API’s necessary on the frontend.
-                                </li>
-                                <li>I integrated the Google Calendar API for letting
-                                    the users schedule the online therapy sessions.
-                                </li>
-                                <li>I increased performance of the entire app by 30% by
-                                    coming up with more efficient solutions for applying
-                                    nested routes on the frontend.
-                                </li>
-                                <li>By working closely with senior developers from
-                                    Comono I learned a lot about principles of writing
-                                    high quality software.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section id="projects" class="band">
+  <div class="wrap">
+    <p class="eyebrow">Projects</p>
+    <h2 class="big">Things I've built</h2>
+    <div class="cards">
+      <article class="card">
+        <span class="tag">2026 – Present</span>
+        <h3>HIT_ENTER</h3>
+        <p>Group chat where every app is a relay: text, files, voice calls and zaps, with nobody's server in the middle.</p>
+        <div class="links"><a href="https://hitenter.app" target="_blank" rel="noopener">Website ↗</a><a href="https://github.com/isciuciustin/HIT_ENTER" target="_blank" rel="noopener">Source ↗</a></div>
+      </article>
+      <article class="card">
+        <span class="tag">Oct 2025 – Present</span>
+        <h3>freeCodeCamp</h3>
+        <p>Working through the Certified Full Stack Developer Curriculum.</p>
+        <div class="links"><a href="./projects/freeCodeCamp-Certified-Full-Stack-Developer-Curriculum.html">My solutions →</a></div>
+      </article>
+      <article class="card">
+        <span class="tag">Oct – Nov 2024</span>
+        <h3>Digital Artist</h3>
+        <p>A modern CRUD application for a digital artist, built to learn Nest.js: Remix on the frontend, MySQL behind it.</p>
+        <div class="links"><a href="https://github.com/isciuciustin/digital-artist" target="_blank" rel="noopener">Source ↗</a></div>
+      </article>
+    </div>
+  </div>
+</section>
 
-        <!-- ================= PROJECTS ================= -->
-        <section class="sect">
-            <h2 class="sect__h">
-                <button type="button" class="sect__btn" id="Projects-btn" aria-expanded="false"
-                    aria-controls="Projects">
-                    <span class="prompt" aria-hidden="true">root@justin:~#</span>
-                    <span class="cmd">ls -la projects/</span>
-                    <span class="sect__state" aria-hidden="true">[+]</span>
-                </button>
-            </h2>
-            <div class="panel" id="Projects" role="region" aria-labelledby="Projects-btn">
-                <div class="panel__in">
-                    <div class="panel__body">
-                        <div class="entry">
-                            <p class="entry__head">
-                                <span class="entry__name">freeCodeCamp</span>
-                                <span class="entry__date">October 2025 – Present</span>
-                            </p>
-                            <ul class="list">
-                                <li>
-                                    I started to work on Certified Full Stack Developer Curriculum
-                                    on freeCodeCamp.
-                                </li>
-                                <li>
-                                    <a href="./projects/freeCodeCamp-Certified-Full-Stack-Developer-Curriculum.html"
-                                        target="_blank" rel="noopener">
-                                        freeCodeCamp Certified Full Stack Developer Curriculum
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="entry">
-                            <p class="entry__head">
-                                <span class="entry__name">DIGITAL ARTIST</span>
-                                <span class="entry__date">October 2024 – November 2024</span>
-                            </p>
-                            <ul class="list">
-                                <li>
-                                    To gain hands-on experience with Nest.js, I
-                                    developed a modern CRUD application for a digital
-                                    artist. This application uses Remix.js for the
-                                    frontend and MySQL as the backend database.
-                                </li>
-                                <li>
-                                    <a href="https://github.com/isciuciustin/digital-artist" target="_blank"
-                                        rel="noopener">
-                                        Source Code
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section id="certificates">
+  <div class="wrap">
+    <p class="eyebrow">Certificates</p>
+    <h2 class="big">Checked by HackerRank</h2>
+    <ul class="certs">
+      <li><b>Software Engineer Intern</b>26 November 2024 · <a href="https://www.hackerrank.com/certificates/06070072e5ec" target="_blank" rel="noopener">View ↗</a></li>
+      <li><b>Problem Solving (Basic)</b>23 November 2024 · <a href="https://www.hackerrank.com/certificates/442354b72e81" target="_blank" rel="noopener">View ↗</a></li>
+      <li><b>Python (Basic)</b>14 October 2023 · <a href="https://www.hackerrank.com/certificates/f0161a29e60f" target="_blank" rel="noopener">View ↗</a></li>
+    </ul>
+  </div>
+</section>
 
-        <!-- ================= CERTIFICATIONS ================= -->
-        <section class="sect">
-            <h2 class="sect__h">
-                <button type="button" class="sect__btn" id="Certifications-btn" aria-expanded="false"
-                    aria-controls="Certifications">
-                    <span class="prompt" aria-hidden="true">root@justin:~#</span>
-                    <span class="cmd">cat certs.txt</span>
-                    <span class="sect__state" aria-hidden="true">[+]</span>
-                </button>
-            </h2>
-            <div class="panel" id="Certifications" role="region" aria-labelledby="Certifications-btn">
-                <div class="panel__in">
-                    <div class="panel__body">
-                        <ul class="list">
-                            <li>
-                                <b>Software Engineer Intern Certificate - HackerRank</b>
-                                <br />
-                                <span class="entry__date">26 November 2024</span> :
-                                <a href="https://www.hackerrank.com/certificates/06070072e5ec" target="_blank"
-                                    rel="noopener">Link</a>
-                            </li>
-                            <li>
-                                <b>Problem Solving (Basic) Certificate - HackerRank</b>
-                                <br />
-                                <span class="entry__date">23 November 2024</span> :
-                                <a href="https://www.hackerrank.com/certificates/442354b72e81" target="_blank"
-                                    rel="noopener">Link</a>
-                            </li>
-                            <li>
-                                <b>Python (Basic) Certificate - HackerRank</b>
-                                <br />
-                                <span class="entry__date">14 October 2023</span> :
-                                <a href="https://www.hackerrank.com/certificates/f0161a29e60f" target="_blank"
-                                    rel="noopener">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section id="contact" class="closing band">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h2 class="big">Let's talk</h2>
+    <p>Work, HIT_ENTER, or a game of Unturned: write to me.</p>
+    <a class="key" href="mailto:justin-hakr-flexer@proton.me">justin-hakr-flexer@proton.me ↵</a>
+    <div class="cta">
+      <a class="pill ghost" href="https://github.com/isciuciustin" target="_blank" rel="noopener">GitHub</a>
+      <a class="pill twitch" href="https://www.twitch.tv/justin_hakr_flexer" target="_blank" rel="noopener">Twitch</a>
+      <a class="pill ghost" href="https://www.freecodecamp.org/isciuciustin01" target="_blank" rel="noopener">freeCodeCamp</a>
+    </div>
+  </div>
+</section>
 
-        <!-- ================= SOCIAL ================= -->
-        <section class="sect">
-            <h2 class="sect__h">
-                <button type="button" class="sect__btn" id="Social-btn" aria-expanded="false" aria-controls="Social">
-                    <span class="prompt" aria-hidden="true">root@justin:~#</span>
-                    <span class="cmd">cat social.txt</span>
-                    <span class="sect__state" aria-hidden="true">[+]</span>
-                </button>
-            </h2>
-            <div class="panel" id="Social" role="region" aria-labelledby="Social-btn">
-                <div class="panel__in">
-                    <div class="panel__body">
-                        <ul class="list">
-                            <li>
-                                <a href="https://github.com/isciuciustin" target="_blank" rel="noopener">Github</a>
-                            </li>
-                            <li>
-                                <a href="https://www.freecodecamp.org/isciuciustin01" target="_blank"
-                                    rel="noopener">freeCodeCamp</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+<footer>
+  <div class="wrap">
+    <div class="brand">
+      <a class="logo" href="#top"><img src="./images/logo.svg" width="28" height="28" alt="">JUSTIN<span>_</span>HAKR<span>_</span>FLEXER</a>
+      <p>Software Developer</p>
+    </div>
+    <div><h4>Find me</h4><ul>
+      <li><a href="https://github.com/isciuciustin" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.twitch.tv/justin_hakr_flexer" target="_blank" rel="noopener">Twitch</a></li>
+      <li><a href="https://www.freecodecamp.org/isciuciustin01" target="_blank" rel="noopener">freeCodeCamp</a></li>
+      <li><a href="mailto:justin-hakr-flexer@proton.me">Email</a></li>
+    </ul></div>
+    <div><h4>Work</h4><ul>
+      <li><a href="https://dtcmobile.ro" target="_blank" rel="noopener">DTC Mobile</a></li>
+      <li><a href="https://hitenter.app" target="_blank" rel="noopener">HIT_ENTER</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul></div>
+    <div class="donate"><h4>Donate</h4>
+      <small>Lightning</small>
+      <code>JustinHakrFlexer@coinos.io</code>
+      <details><summary>QR code</summary><img src="images/donate-ln.svg" alt="QR code for the Lightning address above"></details>
+      <small class="next">Bitcoin (on-chain)</small>
+      <code>bc1qem6q0ga5us9x4r6zypncgn66lvyppkjlrwwgnt</code>
+      <details><summary>QR code</summary><img src="images/donate-btc.svg" alt="QR code for the bitcoin address above"></details>
+    </div>
+    <div class="legal">© 2026 Justin - Hakr - Flexer.</div>
+  </div>
+</footer>
 
-        <!-- ================= CONTACT ================= -->
-        <section class="sect">
-            <h2 class="sect__h">
-                <button type="button" class="sect__btn" id="Contact-btn" aria-expanded="false" aria-controls="Contact">
-                    <span class="prompt" aria-hidden="true">root@justin:~#</span>
-                    <span class="cmd">cat contact.txt</span>
-                    <span class="sect__state" aria-hidden="true">[+]</span>
-                </button>
-            </h2>
-            <div class="panel" id="Contact" role="region" aria-labelledby="Contact-btn">
-                <div class="panel__in">
-                    <div class="panel__body">
-                        <ul class="list">
-                            <li>
-                                <a href="mailto:justin-hakr-flexer@proton.me">justin-hakr-flexer@proton.me</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bar bar--bottom">
-        <span class="status">
-            <b>while True:</b>
-            <span class="cursor" aria-hidden="true"></span>
-        </span>
-        <span class="status status--right">
-            session uptime <span id="uptime">00:00:00</span>
-        </span>
-    </footer>
 </body>
-
 </html>
