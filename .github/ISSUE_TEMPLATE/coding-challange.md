@@ -3,7 +3,7 @@ name: Coding Challange
 about: Next step towards Apple
 title: ''
 labels: ''
-assignees: isciuciustin
+assignees: justin-hakr-flexer
 
 ---
 
